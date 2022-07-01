@@ -1,3 +1,9 @@
+name: Ubuntu
+on: [push]
+jobs:
+  Ubuntu:
+    runs-on: ubuntu-latest
+    steps:
 - name: Start SSH via ngrok
   uses: P3TERX/ssh2actions@main
   with:
