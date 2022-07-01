@@ -9,7 +9,7 @@
 # File name：tmate2actions.sh
 # Description: Connect to Github Actions VM via SSH by using tmate
 # Version: 2.0
-#
+##
 
 set -e
 Green_font_prefix="\033[32m"
